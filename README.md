@@ -125,7 +125,9 @@ nvm install node
 
 You can verify your npm installation with the --version option:
 
+```.sh
 npm --version
+```
 
 ## Make panel tranparent
 
