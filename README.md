@@ -129,6 +129,12 @@ You can verify your npm installation with the --version option:
 npm --version
 ```
 
+## Install gotop
+
+```
+sudo npm install -g gtop
+```
+
 ## Make panel tranparent
 
 ## Setup vs code
