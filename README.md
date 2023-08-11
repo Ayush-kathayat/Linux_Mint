@@ -2,6 +2,19 @@
 
 # Things to do after install -
 
+## Set theme Adatpta nokto
+## Set numix circle icons
+[Link to article](https://www.ubuntupit.com/install-numix-circle-icon-theme-ubuntu-linux-mint-fedora-desktop-environment/)
+```.sh
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme
+sudo apt-get install numix-icon-theme-circle
+```
+
+## Set gestures
+
+
 ## Setup zsh
 
 i. Install zsh
@@ -30,3 +43,6 @@ else
   sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
 fi
 ```
+## Setup Nala
+
+## I
