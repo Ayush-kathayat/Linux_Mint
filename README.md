@@ -45,4 +45,17 @@ fi
 ```
 ## Setup Nala
 
-## I
+## Add git
+
+```.sh
+sudo apt install git
+```
+
+## Add nix
+
+## Make panel tranparent
+
+## Setup vs code
+
+
+
