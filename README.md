@@ -25,6 +25,46 @@ Scroll down to the end of the file and add the following line:
 <username>  ALL=(ALL) NOPASSWD:ALL
 ```
 
+
+## Change swappiness and swap size
+
+i. swapiness
+```
+
+```
+ii. swap size
+
+[link](https://arcolinux.com/how-to-increase-the-size-of-your-swapfile/)
+
+```.sh
+sudo swapoff -a
+```
+
+#### **`!important`** replace `<new-size-in-b=gb>` with the size you want
+
+@see [ideal size for swap](https://arcolinux.com/how-to-increase-the-size-of-your-swapfile/)
+![image](https://github.com/Ayush-kathayat/Linux_Mint/assets/110550492/e1666675-3de9-4943-8919-fced0abf7ce8)
+
+```.sh
+sudo dd if=/dev/zero of=/swapfile bs=1G count=<new-size-in-gb>
+```
+
+Make the file usable as swap
+```.sh
+sudo mkswap /swapfile
+```
+
+Activate the swap file
+```.sh
+sudo swapon /swapfile
+```
+
+Check the amount of swap available
+```.sh
+grep SwapTotal /proc/meminfo
+```
+
+
 ## Set theme Adatpta nokto
 ## Set numix circle icons
 
@@ -78,31 +118,6 @@ sudo apt install git
 
 ## Add nix
 
-
-## Change swappiness and swap size
-
-i. swapiness
-```
-
-```
-ii. swap size
-
-[link](https://arcolinux.com/how-to-increase-the-size-of-your-swapfile/)
-
-```.sh
-sudo swapoff -a
-```
-
-#### **`!important`** replace `<new-size-in-b=gb>` with the size you want
-
-@see [ideal size for swap](https://arcolinux.com/how-to-increase-the-size-of-your-swapfile/)
-![image](https://github.com/Ayush-kathayat/Linux_Mint/assets/110550492/e1666675-3de9-4943-8919-fced0abf7ce8)
-
-```.sh
-sudo dd if=/dev/zero of=/swapfile bs=1G count=<new-size-in-gb>
-```
-
-
 ## Install node
  you can use the Node Package Manager (npm). However, before installing npm, you need to install the Node Version Manager (nvm) first. Here is how you can do it:
 
@@ -138,6 +153,8 @@ sudo npm install -g gtop
 ## Make panel tranparent
 
 ## Setup vs code
+
+## Install any clipboard manager (eg. Didon)
 
 
 
