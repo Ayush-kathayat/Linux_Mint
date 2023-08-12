@@ -65,6 +65,13 @@ grep SwapTotal /proc/meminfo
 ```
 
 
+## Install multimedia codecs
+  1. Provided by mint
+  2. Not included in those provided by mint
+     ```.sh
+     sudo apt install ffmpeg x264 x265 h264enc mencoder mplayer
+     ````
+
 ## Set theme Adatpta nokto
 ## Set numix circle icons
 
