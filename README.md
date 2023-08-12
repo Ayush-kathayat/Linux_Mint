@@ -75,6 +75,12 @@ sudo apt install ffmpeg x264 x265 h264enc mencoder mplayer
 sudo apt install ubuntu-restricted-extras
  ```
 
+## Setup Display
+1. Check if any drivers are needed.
+2. Setup display setting and scaling.
+3. Setup larger text in accesability.
+   
+
 ## Set theme Adatpta nokto
 ## Set numix circle icons
 
