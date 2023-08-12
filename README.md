@@ -66,11 +66,14 @@ grep SwapTotal /proc/meminfo
 
 
 ## Install multimedia codecs
-  1. Provided by mint
-  2. Not included in those provided by mint
-     ```.sh
-     sudo apt install ffmpeg x264 x265 h264enc mencoder mplayer
-     ````
+1. Provided by mint
+2. Not included in those provided by mint
+```.sh
+sudo apt install ffmpeg x264 x265 h264enc mencoder mplayer
+````
+```.sh
+sudo apt install ubuntu-restricted-extras
+ ```
 
 ## Set theme Adatpta nokto
 ## Set numix circle icons
@@ -124,6 +127,7 @@ sudo apt install git
 ```
 
 ## Add nix
+[Chris titus - Getting stated with nix](https://christitus.com/nix-package-manager/)
 
 ## Install node
  you can use the Node Package Manager (npm). However, before installing npm, you need to install the Node Version Manager (nvm) first. Here is how you can do it:
